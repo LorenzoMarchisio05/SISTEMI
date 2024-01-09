@@ -1,0 +1,25 @@
+- blank disk (metto dopo la iso)
+- dimensioni 1GB 1 file 
+- finish ( no edit )
+- ram a 4 gb
+- 2 processors
+- rimuovo il disco
+- creo 2 dischi ( 1 sistema e 1 dati )
+- add nuovo hard disk ( SCSI ) 
+	store virtual disk in a single/multiple file 
+	( single -> meglio per noi )
+	( multiple -> meglio di base )
+- rete ( 4 mod )
+	Bridge 
+		( si crea uno switch virtuale e connette macchina fisica e vm alla rete a cui è connesso l'host )
+		( connesso alla stessa rete dell'host ) ( fa parte della rete ) 
+	Nat 
+		( vmware crea un router virtuale, si collega alla rete dell'host ( attraverso switch virtuale ))
+		( a valle crea una "sottorete" e uno switch e ci attacca le vm )
+		( crea inoltre una scheda di rete all'host per collegarci lo swtich delle vm )
+		( crea una sottorete quindi le vm non figurano come dispositivi connessi alla rete dell'host )
+	Custom 
+		( tra le varie VM ci sono degli switch virtuali ( solo intra vm non parli con l'host ) )
+		( non parli nemmeno con il pc fisico )
+	Host only 
+		( rete point to point tra VM e HOST )
