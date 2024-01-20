@@ -23,3 +23,15 @@
 		( non parli nemmeno con il pc fisico )
 	Host only 
 		( rete point to point tra VM e HOST )
+		
+- CD/DVD
+	Use ISO Image file :)
+
+-> quando avvio la macchina virtuale, premo veloce dentro la finestra e poi clicco un tasto qualunque se no non si avvia
+( piango )
+
+Standard vs Datacenter (42 TB di ram su entrambe, 64 cpu fisiche)
+chiave AVMA -> in windows server datacenter posso comprare solo una chiave per il server
+e usare macchine virtuali dentro la macchina (pago solo la chiave )
+
+> scegliamo la versione standard desktop > versione personalizzata
