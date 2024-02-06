@@ -35,3 +35,12 @@ chiave AVMA -> in windows server datacenter posso comprare solo una chiave per i
 e usare macchine virtuali dentro la macchina (pago solo la chiave )
 
 > scegliamo la versione standard desktop > versione personalizzata
+
+group policy (criteri di gruppo)
+1. riguardano utenti e computer 
+2. si applicano alle organizational unit ( OU )
+
+( se ci sono più policy quelle più in basso nell'albero decidono )
+
+se do una policy a livello globale posso sovrascriverla più in basso nell'albero
+se è impostata applica quella policy altrimenti eredita quella sopra

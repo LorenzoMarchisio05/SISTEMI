@@ -1,0 +1,24 @@
+sistema basato su cartelle in ambiente prevalentemente windows 
+per la gestione di utenti, gruppi. computer, policy ( 
+	criterio / regola -> serve per dare impostazioni di default
+)
+
+con active directory creiamo un dominio
+
+cosa è un dominio -> insieme di macchine / computer che appartengono allo stesso "spazio di lavoro"
+gruppo di lavoro -> usato per reti "stupide"
+se uso struttura complesse con cartelle etc si chiama dominio
+
+foresta -> insieme di domini -> insieme di alberi
+
+catalogo globale -> database 
+
+2 software aduc (active directory users and computer ) e 
+adac (active directory adiministrative center )
+
+si definisce guest un profilo ch al login crea un profilo e che al logout viene distrutto
+OU (è una cartella) -> organizational unit -> contiene gruppi utenti e computer 
+
+gruppo di distribuzione -> gruppo mail
+gruppo di sicurezza -> gruppo per dare diritti di accesso differenziati a computer 
+i gruppi di sicurezza sono di distribuzione ma non viceversa
